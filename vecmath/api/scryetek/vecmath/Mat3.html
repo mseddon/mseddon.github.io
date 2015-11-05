@@ -1,0 +1,1643 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>Mat3 - scryetek.vecmath.Mat3</title>
+          <meta name="description" content="Mat3 - scryetek.vecmath.Mat3" />
+          <meta name="keywords" content="Mat3 scryetek.vecmath.Mat3" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../lib/template.js"></script>
+      <script type="text/javascript" src="../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../index.html';
+            var hash = 'scryetek.vecmath.Mat3';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="type">
+      <div id="definition">
+        <a href="Mat3$.html" title="See companion object"><img alt="Class/Object" src="../../lib/class_to_object_big.png" /></a>
+        <p id="owner"><a href="../package.html" class="extype" name="scryetek">scryetek</a>.<a href="package.html" class="extype" name="scryetek.vecmath">vecmath</a></p>
+        <h1><a href="Mat3$.html" title="See companion object">Mat3</a></h1><h3><span class="morelinks"><div>
+            Related Docs:
+            <a href="Mat3$.html" title="See companion object">object Mat3</a>
+            | <a href="package.html" class="extype" name="scryetek.vecmath">package vecmath</a>
+          </div></span></h3><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Mat3</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="scryetek.vecmath.Mat3"><span>Mat3</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show all</span></li>
+            </ol>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        <div id="constructors" class="members">
+              <h3>Instance Constructors</h3>
+              <ol><li name="scryetek.vecmath.Mat3#&lt;init&gt;" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="&lt;init&gt;():scryetek.vecmath.Mat3"></a>
+      <a id="&lt;init&gt;:Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">new</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Mat3</span><span class="params">()</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@&lt;init&gt;():scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#&lt;init&gt;" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="&lt;init&gt;(m00:Float,m01:Float,m02:Float,m10:Float,m11:Float,m12:Float,m20:Float,m21:Float,m22:Float):scryetek.vecmath.Mat3"></a>
+      <a id="&lt;init&gt;:Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">new</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Mat3</span><span class="params">(<span name="m00">m00: <span class="extype" name="scala.Float">Float</span></span>, <span name="m01">m01: <span class="extype" name="scala.Float">Float</span></span>, <span name="m02">m02: <span class="extype" name="scala.Float">Float</span></span>, <span name="m10">m10: <span class="extype" name="scala.Float">Float</span></span>, <span name="m11">m11: <span class="extype" name="scala.Float">Float</span></span>, <span name="m12">m12: <span class="extype" name="scala.Float">Float</span></span>, <span name="m20">m20: <span class="extype" name="scala.Float">Float</span></span>, <span name="m21">m21: <span class="extype" name="scala.Float">Float</span></span>, <span name="m22">m22: <span class="extype" name="scala.Float">Float</span></span>)</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@&lt;init&gt;(m00:Float,m01:Float,m02:Float,m10:Float,m11:Float,m12:Float,m20:Float,m21:Float,m22:Float):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="scala.AnyRef#!=" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!=(x$1:Any):Boolean"></a>
+      <a id="!=(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@!=(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef###" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="##():Int"></a>
+      <a id="##():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $hash$hash" class="name">##</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@##():Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#*" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="*(q:scryetek.vecmath.Quat):scryetek.vecmath.Mat3"></a>
+      <a id="*(Quat):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $times" class="name">*</span><span class="params">(<span name="q">q: <a href="Quat.html" class="extype" name="scryetek.vecmath.Quat">Quat</a></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@*(q:scryetek.vecmath.Quat):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#*" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="*(b:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3"></a>
+      <a id="*(Mat3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $times" class="name">*</span><span class="params">(<span name="b">b: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@*(b:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#*" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="*(s:Float):scryetek.vecmath.Mat3"></a>
+      <a id="*(Float):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $times" class="name">*</span><span class="params">(<span name="s">s: <span class="extype" name="scala.Float">Float</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@*(s:Float):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#*" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="*(v:scryetek.vecmath.Vec3):scryetek.vecmath.Vec3"></a>
+      <a id="*(Vec3):Vec3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $times" class="name">*</span><span class="params">(<span name="v">v: <a href="Vec3.html" class="extype" name="scryetek.vecmath.Vec3">Vec3</a></span>)</span><span class="result">: <a href="Vec3.html" class="extype" name="scryetek.vecmath.Vec3">Vec3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@*(v:scryetek.vecmath.Vec3):scryetek.vecmath.Vec3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#+" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="+(m:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3"></a>
+      <a id="+(Mat3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $plus" class="name">+</span><span class="params">(<span name="m">m: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@+(m:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Adds two matrices</p><div class="fullcomment"><div class="comment cmt"><p>Adds two matrices</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#-" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="-(m:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3"></a>
+      <a id="-(Mat3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $minus" class="name">-</span><span class="params">(<span name="m">m: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@-(m:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Subtracts two matrices</p><div class="fullcomment"><div class="comment cmt"><p>Subtracts two matrices</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#==" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="==(x$1:Any):Boolean"></a>
+      <a id="==(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@==(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#add" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="add(m:scryetek.vecmath.Mat3,out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3"></a>
+      <a id="add(Mat3,Mat3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">add</span><span class="params">(<span name="m">m: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>, <span name="out">out: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a> = <span class="symbol">this</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@add(m:scryetek.vecmath.Mat3,out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Destructively add another matrix to this matrix into the output matrix.</p><div class="fullcomment"><div class="comment cmt"><p>Destructively add another matrix to this matrix into the output matrix.</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#adjoint" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="adjoint(out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3"></a>
+      <a id="adjoint(Mat3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">adjoint</span><span class="params">(<span name="out">out: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a> = <span class="symbol">this</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@adjoint(out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#adjointed" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="adjointed:scryetek.vecmath.Mat3"></a>
+      <a id="adjointed:Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">adjointed</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@adjointed:scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.Any#asInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="asInstanceOf[T0]:T0"></a>
+      <a id="asInstanceOf[T0]:T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Any.asInstanceOf.T0">T0</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@asInstanceOf[T0]:T0" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.AnyRef#clone" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="clone():Object"></a>
+      <a id="clone():AnyRef"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">clone</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@clone():Object" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.CloneNotSupportedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#copy" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="copy(m00:Float,m01:Float,m02:Float,m10:Float,m11:Float,m12:Float,m20:Float,m21:Float,m22:Float):scryetek.vecmath.Mat3"></a>
+      <a id="copy(Float,Float,Float,Float,Float,Float,Float,Float,Float):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">copy</span><span class="params">(<span name="m00">m00: <span class="extype" name="scala.Float">Float</span> = <span class="symbol">m00</span></span>, <span name="m01">m01: <span class="extype" name="scala.Float">Float</span> = <span class="symbol">m01</span></span>, <span name="m02">m02: <span class="extype" name="scala.Float">Float</span> = <span class="symbol">m02</span></span>, <span name="m10">m10: <span class="extype" name="scala.Float">Float</span> = <span class="symbol">m10</span></span>, <span name="m11">m11: <span class="extype" name="scala.Float">Float</span> = <span class="symbol">m11</span></span>, <span name="m12">m12: <span class="extype" name="scala.Float">Float</span> = <span class="symbol">m12</span></span>, <span name="m20">m20: <span class="extype" name="scala.Float">Float</span> = <span class="symbol">m20</span></span>, <span name="m21">m21: <span class="extype" name="scala.Float">Float</span> = <span class="symbol">m22</span></span>, <span name="m22">m22: <span class="extype" name="scala.Float">Float</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@copy(m00:Float,m01:Float,m02:Float,m10:Float,m11:Float,m12:Float,m20:Float,m21:Float,m22:Float):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#determinant" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="determinant:Float"></a>
+      <a id="determinant:Float"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">determinant</span><span class="result">: <span class="extype" name="scala.Float">Float</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@determinant:Float" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#eq" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="eq(x$1:AnyRef):Boolean"></a>
+      <a id="eq(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">eq</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@eq(x$1:AnyRef):Boolean" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#equals" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="equals(o:Any):Boolean"></a>
+      <a id="equals(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">equals</span><span class="params">(<span name="o">o: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@equals(o:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a> → AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#finalize" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="finalize():Unit"></a>
+      <a id="finalize():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">finalize</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@finalize():Unit" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">classOf[java.lang.Throwable]</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#getClass" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getClass():Class[_]"></a>
+      <a id="getClass():Class[_]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getClass</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.Class">Class</span>[_]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@getClass():Class[_]" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#hashCode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hashCode():Int"></a>
+      <a id="hashCode():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hashCode</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@hashCode():Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a> → AnyRef → Any</dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#invert" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="invert(out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3"></a>
+      <a id="invert(Mat3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">invert</span><span class="params">(<span name="out">out: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a> = <span class="symbol">this</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@invert(out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#inverted" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="inverted:scryetek.vecmath.Mat3"></a>
+      <a id="inverted:Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">inverted</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@inverted:scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.Any#isInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@isInstanceOf[T0]:Boolean" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#m00" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="m00:Float"></a>
+      <a id="m00:Float"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">m00</span><span class="result">: <span class="extype" name="scala.Float">Float</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@m00:Float" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scryetek.vecmath.Mat3#m01" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="m01:Float"></a>
+      <a id="m01:Float"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">m01</span><span class="result">: <span class="extype" name="scala.Float">Float</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@m01:Float" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scryetek.vecmath.Mat3#m02" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="m02:Float"></a>
+      <a id="m02:Float"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">m02</span><span class="result">: <span class="extype" name="scala.Float">Float</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@m02:Float" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scryetek.vecmath.Mat3#m10" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="m10:Float"></a>
+      <a id="m10:Float"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">m10</span><span class="result">: <span class="extype" name="scala.Float">Float</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@m10:Float" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scryetek.vecmath.Mat3#m11" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="m11:Float"></a>
+      <a id="m11:Float"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">m11</span><span class="result">: <span class="extype" name="scala.Float">Float</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@m11:Float" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scryetek.vecmath.Mat3#m12" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="m12:Float"></a>
+      <a id="m12:Float"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">m12</span><span class="result">: <span class="extype" name="scala.Float">Float</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@m12:Float" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scryetek.vecmath.Mat3#m20" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="m20:Float"></a>
+      <a id="m20:Float"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">m20</span><span class="result">: <span class="extype" name="scala.Float">Float</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@m20:Float" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scryetek.vecmath.Mat3#m21" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="m21:Float"></a>
+      <a id="m21:Float"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">m21</span><span class="result">: <span class="extype" name="scala.Float">Float</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@m21:Float" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scryetek.vecmath.Mat3#m22" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="m22:Float"></a>
+      <a id="m22:Float"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">m22</span><span class="result">: <span class="extype" name="scala.Float">Float</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@m22:Float" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scryetek.vecmath.Mat3#mul" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="mul(v:scryetek.vecmath.Vec3):scryetek.vecmath.Vec3"></a>
+      <a id="mul(Vec3):Vec3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mul</span><span class="params">(<span name="v">v: <a href="Vec3.html" class="extype" name="scryetek.vecmath.Vec3">Vec3</a></span>)</span><span class="result">: <a href="Vec3.html" class="extype" name="scryetek.vecmath.Vec3">Vec3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@mul(v:scryetek.vecmath.Vec3):scryetek.vecmath.Vec3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#mul" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="mul(v:scryetek.vecmath.Vec3,out:scryetek.vecmath.Vec3):scryetek.vecmath.Vec3"></a>
+      <a id="mul(Vec3,Vec3):Vec3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mul</span><span class="params">(<span name="v">v: <a href="Vec3.html" class="extype" name="scryetek.vecmath.Vec3">Vec3</a></span>, <span name="out">out: <a href="Vec3.html" class="extype" name="scryetek.vecmath.Vec3">Vec3</a></span>)</span><span class="result">: <a href="Vec3.html" class="extype" name="scryetek.vecmath.Vec3">Vec3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@mul(v:scryetek.vecmath.Vec3,out:scryetek.vecmath.Vec3):scryetek.vecmath.Vec3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#ne" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ne(x$1:AnyRef):Boolean"></a>
+      <a id="ne(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ne</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@ne(x$1:AnyRef):Boolean" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#notify" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notify():Unit"></a>
+      <a id="notify():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notify</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@notify():Unit" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#notifyAll" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notifyAll():Unit"></a>
+      <a id="notifyAll():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notifyAll</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@notifyAll():Unit" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#postMultiply" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="postMultiply(b00:Float,b01:Float,b02:Float,b10:Float,b11:Float,b12:Float,b20:Float,b21:Float,b22:Float,out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3"></a>
+      <a id="postMultiply(Float,Float,Float,Float,Float,Float,Float,Float,Float,Mat3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">postMultiply</span><span class="params">(<span name="b00">b00: <span class="extype" name="scala.Float">Float</span></span>, <span name="b01">b01: <span class="extype" name="scala.Float">Float</span></span>, <span name="b02">b02: <span class="extype" name="scala.Float">Float</span></span>, <span name="b10">b10: <span class="extype" name="scala.Float">Float</span></span>, <span name="b11">b11: <span class="extype" name="scala.Float">Float</span></span>, <span name="b12">b12: <span class="extype" name="scala.Float">Float</span></span>, <span name="b20">b20: <span class="extype" name="scala.Float">Float</span></span>, <span name="b21">b21: <span class="extype" name="scala.Float">Float</span></span>, <span name="b22">b22: <span class="extype" name="scala.Float">Float</span></span>, <span name="out">out: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a> = <span class="symbol">this</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@postMultiply(b00:Float,b01:Float,b02:Float,b10:Float,b11:Float,b12:Float,b20:Float,b21:Float,b22:Float,out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#postMultiply" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="postMultiply(m:scryetek.vecmath.Mat3,out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3"></a>
+      <a id="postMultiply(Mat3,Mat3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">postMultiply</span><span class="params">(<span name="m">m: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>, <span name="out">out: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@postMultiply(m:scryetek.vecmath.Mat3,out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#postMultiply" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="postMultiply(m:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3"></a>
+      <a id="postMultiply(Mat3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">postMultiply</span><span class="params">(<span name="m">m: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@postMultiply(m:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#postRotate" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="postRotate(angle:Float,axis:scryetek.vecmath.Vec3):scryetek.vecmath.Mat3"></a>
+      <a id="postRotate(Float,Vec3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">postRotate</span><span class="params">(<span name="angle">angle: <span class="extype" name="scala.Float">Float</span></span>, <span name="axis">axis: <a href="Vec3.html" class="extype" name="scryetek.vecmath.Vec3">Vec3</a></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@postRotate(angle:Float,axis:scryetek.vecmath.Vec3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#postRotate" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="postRotate(angle:Float,x:Float,y:Float,z:Float):scryetek.vecmath.Mat3"></a>
+      <a id="postRotate(Float,Float,Float,Float):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">postRotate</span><span class="params">(<span name="angle">angle: <span class="extype" name="scala.Float">Float</span></span>, <span name="x">x: <span class="extype" name="scala.Float">Float</span></span>, <span name="y">y: <span class="extype" name="scala.Float">Float</span></span>, <span name="z">z: <span class="extype" name="scala.Float">Float</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@postRotate(angle:Float,x:Float,y:Float,z:Float):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#postRotateQuat" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="postRotateQuat(q:scryetek.vecmath.Quat):scryetek.vecmath.Mat3"></a>
+      <a id="postRotateQuat(Quat):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">postRotateQuat</span><span class="params">(<span name="q">q: <a href="Quat.html" class="extype" name="scryetek.vecmath.Quat">Quat</a></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@postRotateQuat(q:scryetek.vecmath.Quat):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#postRotateQuat" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="postRotateQuat(x:Float,y:Float,z:Float,w:Float):scryetek.vecmath.Mat3"></a>
+      <a id="postRotateQuat(Float,Float,Float,Float):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">postRotateQuat</span><span class="params">(<span name="x">x: <span class="extype" name="scala.Float">Float</span></span>, <span name="y">y: <span class="extype" name="scala.Float">Float</span></span>, <span name="z">z: <span class="extype" name="scala.Float">Float</span></span>, <span name="w">w: <span class="extype" name="scala.Float">Float</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@postRotateQuat(x:Float,y:Float,z:Float,w:Float):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#postRotateX" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="postRotateX(angle:Float):scryetek.vecmath.Mat3"></a>
+      <a id="postRotateX(Float):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">postRotateX</span><span class="params">(<span name="angle">angle: <span class="extype" name="scala.Float">Float</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@postRotateX(angle:Float):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Destructively post-multiplies a rotation around the x-axis into this matrix.</p><div class="fullcomment"><div class="comment cmt"><p>Destructively post-multiplies a rotation around the x-axis into this matrix.
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#postRotateY" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="postRotateY(angle:Float):scryetek.vecmath.Mat3"></a>
+      <a id="postRotateY(Float):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">postRotateY</span><span class="params">(<span name="angle">angle: <span class="extype" name="scala.Float">Float</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@postRotateY(angle:Float):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Destructively post-multiplies a rotation around the y-axis into this matrix.</p><div class="fullcomment"><div class="comment cmt"><p>Destructively post-multiplies a rotation around the y-axis into this matrix.
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#postRotateZ" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="postRotateZ(angle:Float):scryetek.vecmath.Mat3"></a>
+      <a id="postRotateZ(Float):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">postRotateZ</span><span class="params">(<span name="angle">angle: <span class="extype" name="scala.Float">Float</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@postRotateZ(angle:Float):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Destructively post-multiplies a rotation around the z-axis into this matrix.</p><div class="fullcomment"><div class="comment cmt"><p>Destructively post-multiplies a rotation around the z-axis into this matrix.
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#postScale" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="postScale(s:scryetek.vecmath.Vec3):scryetek.vecmath.Mat3"></a>
+      <a id="postScale(Vec3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">postScale</span><span class="params">(<span name="s">s: <a href="Vec3.html" class="extype" name="scryetek.vecmath.Vec3">Vec3</a></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@postScale(s:scryetek.vecmath.Vec3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#postScale" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="postScale(x:Float,y:Float,z:Float):scryetek.vecmath.Mat3"></a>
+      <a id="postScale(Float,Float,Float):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">postScale</span><span class="params">(<span name="x">x: <span class="extype" name="scala.Float">Float</span></span>, <span name="y">y: <span class="extype" name="scala.Float">Float</span></span>, <span name="z">z: <span class="extype" name="scala.Float">Float</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@postScale(x:Float,y:Float,z:Float):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#preMultiply" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="preMultiply(b00:Float,b01:Float,b02:Float,b10:Float,b11:Float,b12:Float,b20:Float,b21:Float,b22:Float,out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3"></a>
+      <a id="preMultiply(Float,Float,Float,Float,Float,Float,Float,Float,Float,Mat3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">preMultiply</span><span class="params">(<span name="b00">b00: <span class="extype" name="scala.Float">Float</span></span>, <span name="b01">b01: <span class="extype" name="scala.Float">Float</span></span>, <span name="b02">b02: <span class="extype" name="scala.Float">Float</span></span>, <span name="b10">b10: <span class="extype" name="scala.Float">Float</span></span>, <span name="b11">b11: <span class="extype" name="scala.Float">Float</span></span>, <span name="b12">b12: <span class="extype" name="scala.Float">Float</span></span>, <span name="b20">b20: <span class="extype" name="scala.Float">Float</span></span>, <span name="b21">b21: <span class="extype" name="scala.Float">Float</span></span>, <span name="b22">b22: <span class="extype" name="scala.Float">Float</span></span>, <span name="out">out: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a> = <span class="symbol">this</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@preMultiply(b00:Float,b01:Float,b02:Float,b10:Float,b11:Float,b12:Float,b20:Float,b21:Float,b22:Float,out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#preMultiply" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="preMultiply(m:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3"></a>
+      <a id="preMultiply(Mat3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">preMultiply</span><span class="params">(<span name="m">m: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@preMultiply(m:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#preMultiply" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="preMultiply(m:scryetek.vecmath.Mat3,out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3"></a>
+      <a id="preMultiply(Mat3,Mat3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">preMultiply</span><span class="params">(<span name="m">m: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>, <span name="out">out: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@preMultiply(m:scryetek.vecmath.Mat3,out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#preRotate" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="preRotate(angle:Float,axis:scryetek.vecmath.Vec3):scryetek.vecmath.Mat3"></a>
+      <a id="preRotate(Float,Vec3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">preRotate</span><span class="params">(<span name="angle">angle: <span class="extype" name="scala.Float">Float</span></span>, <span name="axis">axis: <a href="Vec3.html" class="extype" name="scryetek.vecmath.Vec3">Vec3</a></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@preRotate(angle:Float,axis:scryetek.vecmath.Vec3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#preRotate" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="preRotate(angle:Float,x:Float,y:Float,z:Float):scryetek.vecmath.Mat3"></a>
+      <a id="preRotate(Float,Float,Float,Float):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">preRotate</span><span class="params">(<span name="angle">angle: <span class="extype" name="scala.Float">Float</span></span>, <span name="x">x: <span class="extype" name="scala.Float">Float</span></span>, <span name="y">y: <span class="extype" name="scala.Float">Float</span></span>, <span name="z">z: <span class="extype" name="scala.Float">Float</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@preRotate(angle:Float,x:Float,y:Float,z:Float):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#preRotateQuat" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="preRotateQuat(q:scryetek.vecmath.Quat):scryetek.vecmath.Mat3"></a>
+      <a id="preRotateQuat(Quat):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">preRotateQuat</span><span class="params">(<span name="q">q: <a href="Quat.html" class="extype" name="scryetek.vecmath.Quat">Quat</a></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@preRotateQuat(q:scryetek.vecmath.Quat):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#preRotateQuat" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="preRotateQuat(x:Float,y:Float,z:Float,w:Float):scryetek.vecmath.Mat3"></a>
+      <a id="preRotateQuat(Float,Float,Float,Float):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">preRotateQuat</span><span class="params">(<span name="x">x: <span class="extype" name="scala.Float">Float</span></span>, <span name="y">y: <span class="extype" name="scala.Float">Float</span></span>, <span name="z">z: <span class="extype" name="scala.Float">Float</span></span>, <span name="w">w: <span class="extype" name="scala.Float">Float</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@preRotateQuat(x:Float,y:Float,z:Float,w:Float):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#preRotateX" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="preRotateX(angle:Float):scryetek.vecmath.Mat3"></a>
+      <a id="preRotateX(Float):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">preRotateX</span><span class="params">(<span name="angle">angle: <span class="extype" name="scala.Float">Float</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@preRotateX(angle:Float):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Destructively pre-multiplies a rotation around the x-axis into this matrix.</p><div class="fullcomment"><div class="comment cmt"><p>Destructively pre-multiplies a rotation around the x-axis into this matrix.
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#preRotateY" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="preRotateY(angle:Float):scryetek.vecmath.Mat3"></a>
+      <a id="preRotateY(Float):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">preRotateY</span><span class="params">(<span name="angle">angle: <span class="extype" name="scala.Float">Float</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@preRotateY(angle:Float):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Destructively pre-multiplies a rotation around the y-axis into this matrix.</p><div class="fullcomment"><div class="comment cmt"><p>Destructively pre-multiplies a rotation around the y-axis into this matrix.
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#preRotateZ" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="preRotateZ(angle:Float):scryetek.vecmath.Mat3"></a>
+      <a id="preRotateZ(Float):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">preRotateZ</span><span class="params">(<span name="angle">angle: <span class="extype" name="scala.Float">Float</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@preRotateZ(angle:Float):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Destructively pre-multiplies a rotation around the z-axis into this matrix.</p><div class="fullcomment"><div class="comment cmt"><p>Destructively pre-multiplies a rotation around the z-axis into this matrix.
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#preScale" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="preScale(s:scryetek.vecmath.Vec3):scryetek.vecmath.Mat3"></a>
+      <a id="preScale(Vec3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">preScale</span><span class="params">(<span name="s">s: <a href="Vec3.html" class="extype" name="scryetek.vecmath.Vec3">Vec3</a></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@preScale(s:scryetek.vecmath.Vec3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#preScale" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="preScale(x:Float,y:Float,z:Float):scryetek.vecmath.Mat3"></a>
+      <a id="preScale(Float,Float,Float):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">preScale</span><span class="params">(<span name="x">x: <span class="extype" name="scala.Float">Float</span></span>, <span name="y">y: <span class="extype" name="scala.Float">Float</span></span>, <span name="z">z: <span class="extype" name="scala.Float">Float</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@preScale(x:Float,y:Float,z:Float):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#scale" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="scale(s:Float,out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3"></a>
+      <a id="scale(Float,Mat3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">scale</span><span class="params">(<span name="s">s: <span class="extype" name="scala.Float">Float</span></span>, <span name="out">out: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a> = <span class="symbol">this</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@scale(s:Float,out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#set" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="set(m:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3"></a>
+      <a id="set(Mat3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">set</span><span class="params">(<span name="m">m: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@set(m:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#set" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="set(m00:Float,m01:Float,m02:Float,m10:Float,m11:Float,m12:Float,m20:Float,m21:Float,m22:Float):scryetek.vecmath.Mat3"></a>
+      <a id="set(Float,Float,Float,Float,Float,Float,Float,Float,Float):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">set</span><span class="params">(<span name="m00">m00: <span class="extype" name="scala.Float">Float</span> = <span class="symbol">m00</span></span>, <span name="m01">m01: <span class="extype" name="scala.Float">Float</span> = <span class="symbol">m01</span></span>, <span name="m02">m02: <span class="extype" name="scala.Float">Float</span> = <span class="symbol">m02</span></span>, <span name="m10">m10: <span class="extype" name="scala.Float">Float</span> = <span class="symbol">m10</span></span>, <span name="m11">m11: <span class="extype" name="scala.Float">Float</span> = <span class="symbol">m11</span></span>, <span name="m12">m12: <span class="extype" name="scala.Float">Float</span> = <span class="symbol">m12</span></span>, <span name="m20">m20: <span class="extype" name="scala.Float">Float</span> = <span class="symbol">m20</span></span>, <span name="m21">m21: <span class="extype" name="scala.Float">Float</span> = <span class="symbol">m22</span></span>, <span name="m22">m22: <span class="extype" name="scala.Float">Float</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@set(m00:Float,m01:Float,m02:Float,m10:Float,m11:Float,m12:Float,m20:Float,m21:Float,m22:Float):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#sub" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="sub(m:scryetek.vecmath.Mat3,out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3"></a>
+      <a id="sub(Mat3,Mat3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">sub</span><span class="params">(<span name="m">m: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>, <span name="out">out: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a> = <span class="symbol">this</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@sub(m:scryetek.vecmath.Mat3,out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Destructively add another matrix to this matrix into the output matrix.</p><div class="fullcomment"><div class="comment cmt"><p>Destructively add another matrix to this matrix into the output matrix.</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#synchronized" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="synchronized[T0](x$1:=&gt;T0):T0"></a>
+      <a id="synchronized[T0](⇒T0):T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">synchronized</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="params">(<span name="arg0">arg0: ⇒ <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>)</span><span class="result">: <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@synchronized[T0](x$1:=&gt;T0):T0" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#toMat2d" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toMat2d:scryetek.vecmath.Mat2d"></a>
+      <a id="toMat2d:Mat2d"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toMat2d</span><span class="result">: <a href="Mat2d.html" class="extype" name="scryetek.vecmath.Mat2d">Mat2d</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@toMat2d:scryetek.vecmath.Mat2d" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#toMat4" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toMat4:scryetek.vecmath.Mat4"></a>
+      <a id="toMat4:Mat4"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toMat4</span><span class="result">: <a href="Mat4.html" class="extype" name="scryetek.vecmath.Mat4">Mat4</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@toMat4:scryetek.vecmath.Mat4" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#toQuat" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toQuat:scryetek.vecmath.Quat"></a>
+      <a id="toQuat:Quat"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toQuat</span><span class="result">: <a href="Quat.html" class="extype" name="scryetek.vecmath.Quat">Quat</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@toQuat:scryetek.vecmath.Quat" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#toString" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toString():String"></a>
+      <a id="toString():String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toString</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@toString():String" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a> → AnyRef → Any</dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#transpose" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="transpose(out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3"></a>
+      <a id="transpose(Mat3):Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">transpose</span><span class="params">(<span name="out">out: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a> = <span class="symbol">this</span></span>)</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@transpose(out:scryetek.vecmath.Mat3):scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scryetek.vecmath.Mat3#transposed" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="transposed:scryetek.vecmath.Mat3"></a>
+      <a id="transposed:Mat3"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">transposed</span><span class="result">: <a href="" class="extype" name="scryetek.vecmath.Mat3">Mat3</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@transposed:scryetek.vecmath.Mat3" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@inline</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait():Unit"></a>
+      <a id="wait():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@wait():Unit" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long,x$2:Int):Unit"></a>
+      <a id="wait(Long,Int):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>, <span name="arg1">arg1: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@wait(x$1:Long,x$2:Int):Unit" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long):Unit"></a>
+      <a id="wait(Long):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#scryetek.vecmath.Mat3@wait(x$1:Long):Unit" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>
